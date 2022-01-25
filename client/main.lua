@@ -256,19 +256,19 @@ function openTunerLaptop(bool)
     })
 end
 
-RegisterNUICallback('SetStancer', function(data, cb)
-    local fOffset = data.fOffset * 100 / 1000
-    local fRotation = data.fRotation * 100 / 1000
-    local rOffset = data.rOffset * 100 / 1000
-    local rRotation = data.rRotation * 100 / 1000
+-- RegisterNUICallback('SetStancer', function(data, cb)
+--     local fOffset = data.fOffset * 100 / 1000
+--     local fRotation = data.fRotation * 100 / 1000
+--     local rOffset = data.rOffset * 100 / 1000
+--     local rRotation = data.rRotation * 100 / 1000
 
-    print(fOffset)
-    print(fRotation)
-    print(rOffset)
-    print(rRotation)
+--     print(fOffset)
+--     print(fRotation)
+--     print(rOffset)
+--     print(rRotation)
 
-    local ped = PlayerPedId()
-    local veh = GetVehiclePedIsIn(ped)
+--     local ped = PlayerPedId()
+--     local veh = GetVehiclePedIsIn(ped)
 
-    exports["vstancer"]:SetWheelPreset(veh, -fOffset, -fRotation, -rOffset, -rRotation)
-end)
+--     exports["vstancer"]:SetWheelPreset(veh, -fOffset, -fRotation, -rOffset, -rRotation)
+-- end)
