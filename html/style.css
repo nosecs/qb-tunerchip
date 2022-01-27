@@ -174,7 +174,8 @@ height: 40vh; */
 
 .tunerchip-btn:hover {
   border-radius: 0.5vh;
-  background-color: #4c4881;
+  background-color: limegreen;
+  color: #000000
 }
 
 .tunerchip-btn > p {
